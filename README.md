@@ -1,43 +1,70 @@
-# Astro Starter Kit: Minimal
+AI Voice Service
 
-```sh
-npm create astro@latest -- --template minimal
-```
+  A modern, minimalist landing page for AI voice technology built with
+  Astro, featuring clean black and white design aesthetics inspired by
+  high-end printing press layouts.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+  Design Philosophy
 
-## 🚀 Project Structure
+  - Clean & Minimal: Pure black and white color scheme with subtle gray
+  accents
+  - Typography-First: Bold, uppercase headings with wide letter spacing
+  - Geometric: Sharp borders and clean geometric shapes instead of gradients
+  - Print-Inspired: Professional aesthetic reminiscent of technical manuals
+  and high-end print design
+  - AI-Focused: Technical, sophisticated feel appropriate for cutting-edge
+  AI technology
 
-Inside of your Astro project, you'll see the following folders and files:
+  Features
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+  - Responsive Design: Optimized for all device sizes
+  - Interactive Wave Animation: Subtle Canvas 2D particle system with
+  synchronized circular waves
+  - Modern Typography: Clean, readable fonts with careful spacing and
+  hierarchy
+  - Performance Optimized: Built with Astro for fast loading and excellent
+  SEO
+  - Accessible: High contrast design with proper semantic HTML
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+  Tech Stack
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+  - Framework: Astro
+  - Styling: Tailwind CSS
+  - Animation: Canvas 2D API for wave effects
+  - Typography: System fonts with custom spacing
+  - Build: Vite (via Astro)
 
-Any static assets, like images, can be placed in the `public/` directory.
+  Getting Started
 
-## 🧞 Commands
+  npm install
+  npm run dev
 
-All commands are run from the root of the project, from a terminal:
+  Visit http://localhost:4321 to see the site.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+  Project Structure
 
-## 👀 Want to learn more?
+  src/
+  ├── components/
+  │   ├── Hero.astro          # Main hero section with wave animation
+  │   ├── Features.astro      # Feature grid with clean cards
+  │   ├── Technology.astro    # Technology metrics and visual grid
+  │   ├── Header.astro        # Navigation header
+  │   ├── CTA.astro          # Call-to-action section
+  │   └── Footer.astro        # Site footer
+  ├── layouts/
+  │   └── Layout.astro        # Base layout
+  └── pages/
+      └── index.astro         # Home page
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+  Key Design Elements
+
+  - Wave Animation: Synchronized circular particle waves in subtle
+  black/gray
+  - Button Styles: Sharp rectangular buttons with bold borders
+  - Card Design: Clean white cards with precise black borders
+  - Color Palette: Black (#000000), White (#ffffff), Gray shades for accents
+  - Typography: Uppercase headings, wide tracking, mixed font weights
+
+  Built for modern AI companies seeking a sophisticated, technical aesthetic
+   that conveys precision and innovation.
+
